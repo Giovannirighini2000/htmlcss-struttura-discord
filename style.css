@@ -6,10 +6,10 @@
 img{
     max-width: 100%;
 }
+
 .container1{
     max-width: 1200px;
     padding: 10px 30px;
-    
 }
 .debugH{
     background-color: aquamarine;
@@ -79,7 +79,7 @@ img{
 }
 /* DEBUG RAW2 */
 .raw2{
-    background-color: aquamarine;
+   background-color: blue;
     
 }
 .col2{
@@ -88,6 +88,18 @@ img{
 .Logo{
     display: block;
     align-items: flex-start;
+}
+.container3{
+    max-width: 1200px;
+    padding: 10px 30px;
+}
+/* container 3 debug */
+.container3{
+    background-color: rgb(243, 243, 243);
+
+    max-width: 1200px;
+    padding: 10px 30px;
+    
 }
 
    
