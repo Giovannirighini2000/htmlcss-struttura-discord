@@ -20,24 +20,30 @@ img{
     justify-content: space-around;
     flex-direction:  row;
     
+    
    
    
     
 }
-.container1{/*debug*/
+.row{/*DEBUG HEADER*/
     background-color: rgb(112, 98, 71);
-    border: 3px dashed black;
+    border: 3px dashed black; 
     
 }
 .bordi{
     padding: 5px 30px;
 }
-.rowlink{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:  row-reverse;
-    justify-content: flex-start;
-}
+
 .collink{
   align-items: flex-start;
+  align-items: center;
+}
+.col-Logo{/*DEBUG LOGO*/
+    border: 3px dashed black;
+   
+
+}
+.Accedi{/*DEBUG ACCEDI*/
+    border: 3px dashed black;
+
 }
