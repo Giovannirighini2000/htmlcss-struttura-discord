@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.container1{
+    max-width: 1200px;
+    
+}
+.debugH{
+    background-color: aquamarine;
+    min-height: 40px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:  row;
+    
+   
+   
+    
+}
+.container1{/*debug*/
+    background-color: rgb(112, 98, 71);
+    border: 3px dashed black;
+    
+}
+.bordi{
+    padding: 5px 30px;
+}
+.rowlink{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:  row-reverse;
+    justify-content: flex-start;
+}
+.collink{
+  align-items: flex-start;
+}
