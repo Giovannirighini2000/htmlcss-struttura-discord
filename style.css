@@ -55,19 +55,18 @@ img{
 
 }
 .bloccoH{
-    
-   margin: 10px 45px;
-    background-color: rosybrown;
-    
-
-
+     
 }
 /* BLOCCOH DEBUG  */
 .bloccoH{
     border: 3px dashed black;
     background-color: rosybrown;
+    height: 100px;
     
 
+}
+.container2{
+    padding: 15px 55px;
 }
 
 
