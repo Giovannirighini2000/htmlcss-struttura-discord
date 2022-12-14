@@ -8,6 +8,7 @@ img{
 }
 .container1{
     max-width: 1200px;
+    padding: 10px 30px;
     
 }
 .debugH{
@@ -18,12 +19,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction:  row;
-    
-    
-   
-   
-    
+    flex-direction:  row;               
 }
 .row{/*DEBUG HEADER*/
     background-color: rgb(112, 98, 71);
