@@ -49,3 +49,17 @@ img{
     flex-direction: row;
     justify-content: center;
 }
+
+.container2{/* DEBUG-CONTAINER2*/
+    background-color: blue;
+
+}
+.bloccoH{
+    
+   margin: 10px 45px;
+    background-color: rosybrown;
+    border: 3px dashed black;
+
+
+}
+   
