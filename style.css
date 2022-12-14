@@ -86,6 +86,11 @@ img{
 .col2{
     align-items: center;
 }
+/* COL2 DEBUG */
+.col2{
+    background-color: blueviolet;
+    height: 100px;
+}
 .Logo{
     display: block;
     align-items: flex-start;
@@ -100,7 +105,14 @@ img{
 
     max-width: 1200px;
     padding: 10px 30px;
+    height: 150px;
     
 }
-
+.col2{
+    background-color: rgb(255, 38, 0);
+    flex-basis: calc(100%/2/3);
+}
+.pink{
+    background-color: pink;
+}
    
