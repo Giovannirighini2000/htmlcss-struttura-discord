@@ -36,6 +36,7 @@ img{
 }
 .col-Logo{/*DEBUG LOGO*/
     border: 3px dashed black;
+    
    
 
 }
@@ -67,7 +68,26 @@ img{
 }
 .container2{
     padding: 15px 55px;
+    max-width: 1200px;
 }
+.raw2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 
+}
+/* DEBUG RAW2 */
+.raw2{
+    background-color: aquamarine;
+    
+}
+.col2{
+    align-items: center;
+}
+.Logo{
+    display: block;
+    align-items: flex-start;
+}
 
    
