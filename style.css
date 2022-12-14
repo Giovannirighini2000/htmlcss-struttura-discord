@@ -6,47 +6,40 @@
 img{
     max-width: 100%;
 }
-
 .container1{
     max-width: 1200px;
-    padding: 10px 30px;
-}
-.debugH{
     background-color: aquamarine;
-    min-height: 40px;
+    margin: 30px 10px 30px 10px;
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction:  row;               
+                    
 }
 .row{/*DEBUG HEADER*/
     background-color: rgb(112, 98, 71);
     border: 3px dashed black; 
     
 }
-.container> .bordi{
+.container1 .bordi{
     padding: 5px 30px;
 }
 
 .collink{
-  align-items: flex-start;
-  align-items: center;
+  align-self: center;
 }
-.col-Logo{/*DEBUG LOGO*/
-    border: 3px dashed black;
-    
+.colLogo{/*DEBUG LOGO*/
+    border: 3px dashed black;      
+}
+.colLogo{
+    align-self: flex-start;
    
-
 }
-.Accedi{/*DEBUG ACCEDI*/
+.accedi{/*DEBUG ACCEDI*/
     border: 3px dashed black;
 
 }
-.rawlink{
-    display: flex;
-    flex-wrap: wrap;
+.row .rowlink{
+    display: flex;   
     flex-direction: row;
     justify-content: center;
 }
@@ -91,10 +84,7 @@ img{
     background-color: blueviolet;
     height: 100px;
 }
-.Logo{
-    display: block;
-    align-items: flex-start;
-}
+
 .container3{
     max-width: 1200px;
     padding: 10px 30px;
