@@ -13,8 +13,7 @@ img{
 }
 .row{
     display: flex;
-    
-                    
+                       
 }
 .justyfy{
     justify-content: space-between;
@@ -22,45 +21,64 @@ img{
 .main-header .row {
 	align-items: center;
 }
-
+.container-small{
+    max-width: 1200px;
+    margin: 0;
+}
+.section{
+    padding: 50px ;
+}
 /* DEBUG  */
- .row{/*DEBUG HEADER*/
-    background-color: rgb(112, 98, 71);
-    border: 3px dashed black; 
-    
-}  
-/* container 3 debug */
-.container3{
-    background-color: rgb(243, 243, 243);
 
+.row{/*DEBUG HEADER*/
+    background-color: rgb(112, 98, 71);
+    border: 3px dashed black;    
+}  
+
+.container3{/* container 3 debug */
+    background-color: rgb(243, 243, 243);
     max-width: 1200px;
     padding: 10px 30px;
-    height: 150px;
-    
+    height: 150px;   
 }
-/* COL2 DEBUG */
-.col2{
+
+.col2{/* COL2 DEBUG */
     background-color: blueviolet;
     height: 100px;
 }
-/* DEBUG RAW2 */
-.row2{
-   background-color: blue;
-    
+
+.row2{/* DEBUG RAW2 */
+   background-color: blue;  
 }
 
 .container2{/* DEBUG-CONTAINER2*/
     background-color: blue;
-
 }
+
 .col .accedi{/*DEBUG ACCEDI*/
     border: 3px dashed black;
-
 }
+
 .col .Logo{/*DEBUG LOGO*/
     border: 3px dashed black;      
 }
-.debug .main-header {
+
+.debug .main-header {    /* DEBUG MAIN HEADER */
 	background-color: #add8e6;
 	padding: 20px 0;
 }
+
+.debug .container-small{ /* DEBUG START*/
+    border: 3px dashed red;
+    padding: 10px 40px;
+}
+
+.debug .start > * { /* DEBUG START */
+	min-height: 500px;  
+}
+
+.debug .start{ /* DEBUG START */
+    background: green;
+    
+}
+
