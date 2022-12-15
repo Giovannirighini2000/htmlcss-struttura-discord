@@ -6,9 +6,15 @@
 img{
     max-width: 100%;
 }
+ul,
+ol,
+menu {
+	list-style: none;
+}
 .container1{
     max-width: 1200px;
     padding: 10px 30px;
+    margin: 0 auto;
     
 }
 .row{
@@ -23,7 +29,7 @@ img{
 }
 .container-small{
     max-width: 1200px;
-    margin: 0;
+    margin: 0 auto;
 }
 .section{
     padding: 50px ;
@@ -76,7 +82,6 @@ img{
 .debug .start > * { /* DEBUG START */
 	min-height: 500px;  
 }
-
 .debug .start{ /* DEBUG START */
     background: green;
     
