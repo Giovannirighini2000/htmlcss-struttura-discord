@@ -8,87 +8,27 @@ img{
 }
 .container1{
     max-width: 1200px;
-    background-color: aquamarine;
-    margin: 30px 10px 30px 10px;
+    padding: 10px 30px;
+    
 }
 .row{
     display: flex;
+    
                     
 }
-.row{/*DEBUG HEADER*/
+.justyfy{
+    justify-content: space-between;
+}
+.main-header .row {
+	align-items: center;
+}
+
+/* DEBUG  */
+ .row{/*DEBUG HEADER*/
     background-color: rgb(112, 98, 71);
     border: 3px dashed black; 
     
-}
-.container1 .bordi{
-    padding: 5px 30px;
-}
-
-.collink{
-  align-self: center;
-}
-.colLogo{/*DEBUG LOGO*/
-    border: 3px dashed black;      
-}
-.colLogo{
-    align-self: flex-start;
-   
-}
-.accedi{/*DEBUG ACCEDI*/
-    border: 3px dashed black;
-
-}
-.row .rowlink{
-    display: flex;   
-    flex-direction: row;
-    justify-content: center;
-}
-
-.container2{/* DEBUG-CONTAINER2*/
-    background-color: blue;
-
-}
-.bloccoH{
-     
-}
-/* BLOCCOH DEBUG  */
-.bloccoH{
-    border: 3px dashed black;
-    background-color: rosybrown;
-    height: 100px;
-    
-
-}
-.container2{
-    padding: 15px 55px;
-    max-width: 1200px;
-}
-.row2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px 30px;
-
-}
-/* DEBUG RAW2 */
-.row2{
-   background-color: blue;
-    
-}
-.col2{
-    align-items: center;
-}
-/* COL2 DEBUG */
-.col2{
-    background-color: blueviolet;
-    height: 100px;
-}
-
-.container3{
-    max-width: 1200px;
-    padding: 10px 30px;
-}
+}  
 /* container 3 debug */
 .container3{
     background-color: rgb(243, 243, 243);
@@ -98,11 +38,29 @@ img{
     height: 150px;
     
 }
+/* COL2 DEBUG */
 .col2{
-    background-color: rgb(255, 38, 0);
-    flex-basis: calc(100%/2/3);
+    background-color: blueviolet;
+    height: 100px;
 }
-.pink{
-    background-color: pink;
+/* DEBUG RAW2 */
+.row2{
+   background-color: blue;
+    
 }
-   
+
+.container2{/* DEBUG-CONTAINER2*/
+    background-color: blue;
+
+}
+.col .accedi{/*DEBUG ACCEDI*/
+    border: 3px dashed black;
+
+}
+.col .Logo{/*DEBUG LOGO*/
+    border: 3px dashed black;      
+}
+.debug .main-header {
+	background-color: #add8e6;
+	padding: 20px 0;
+}
